@@ -60,7 +60,11 @@ Input → LSTM(50) → Dropout(0.2) → LSTM(50) → Dropout(0.2) → Dense(25) 
 
 ### 📉 Loss & MAE Curves
 
-> _(Add your plot images here if hosting)_
+<p align="center">
+  <img src="https://github.com/mks2002/NeuroWatts-Neural-Time-Series-for-Power-Consumption/blob/main/LOSS.png" width="400" title="Loss Curves"/>
+  <img src="https://github.com/mks2002/NeuroWatts-Neural-Time-Series-for-Power-Consumption/blob/main/MAE.png" width="400" title="MAE Curves"/>
+  <img src="https://github.com/mks2002/NeuroWatts-Neural-Time-Series-for-Power-Consumption/blob/main/actual-Predicted.png" width="400" title="Actual VS Predicted Values"/>
+</p>
 
 ---
 
@@ -119,7 +123,9 @@ Input → LSTM(50) → Dropout(0.2) → LSTM(50) → Dropout(0.2) → Dense(25) 
 📁 NeuroWatts-Neural-Time-Series-for-Power-Consumption
 ├── household_power_consumption_lstm.ipynb
 ├── requirements.txt
-├── plots/
+├── actual-Predicted.png
+├── LOSS.png
+├── MAE.png
 └── README.md
 ```
 
