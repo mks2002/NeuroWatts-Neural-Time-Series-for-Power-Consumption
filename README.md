@@ -143,11 +143,6 @@ Input → LSTM(50) → Dropout(0.2) → LSTM(50) → Dropout(0.2) → Dense(25) 
 3. Launch notebook:  
    `jupyter notebook household_power_consumption_lstm.ipynb`
 
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
 
